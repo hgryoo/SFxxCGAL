@@ -35,7 +35,7 @@ cppbuild
 
 
 # JetBrains
-.idea
+.idea/*
 
 # CMake
 cmake-build-debug/
