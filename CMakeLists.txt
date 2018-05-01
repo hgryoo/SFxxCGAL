@@ -33,10 +33,12 @@ set( SFCGAL_DIR "${INSTALL_PATH}")
 set( CGAL_CORE_PACKAGE_DIR "${INSTALL_PATH}")
 set( STXXL_DIR_SEARCH "${INSTALL_PATH}")
 set( BOOST_ROOT "${INSTALL_PATH}")
+set( SIDX_DIR_SEARCH "${INSTALL_PATH}")
 
 macro(build_tool PROGNAME)
     add_executable(${PROGNAME} ${PROGNAME}.cpp ${ARGN})
     target_link_libraries(${PROGNAME}
+            ${SIDX_LIBRARY}
             ${STXXL_LIBRARY}
             ${SFCGAL_LIBRARIES}
             ${CGAL_LIBRARIES}
@@ -71,6 +73,12 @@ endif()
 find_package( STXXL REQUIRED )
 if ( NOT STXXL_FOUND )
     message(STATUS "This project requires the STXXL library, and will not be compiled.")
+    return()
+endif()
+
+find_package( SIDX REQUIRED )
+if ( NOT SIDX_FOUND )
+    message(STATUS "This project requires the SIDX library, and will not be compiled.")
     return()
 endif()
 

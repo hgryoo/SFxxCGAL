@@ -105,16 +105,26 @@ case $OPERATION in
 			    download https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.11.1/CGAL-4.11.1.tar.xz CGAL.tar.xz
 				download https://github.com/Oslandia/SFCGAL/archive/v1.3.4.tar.gz SFCGAL.tar.gz
                 download https://github.com/stxxl/stxxl/releases/download/1.4.1/stxxl-1.4.1.tar.gz stxxl.tar.gz
+                download https://github.com/libspatialindex/libspatialindex/archive/1.8.5.tar.gz libspatialindex.tar.gz
 
                 mkdir -p boost
                 mkdir -p CGAL
                 mkdir -p SFCGAL
                 mkdir -p stxxl
+                mkdir -p spatialindex
+
 
                 tar -xzf ../downloads/boost.tar.gz -C boost --strip-components 1
 				tar -xf ../downloads/CGAL.tar.xz -C CGAL --strip-components 1
 				tar -xzf ../downloads/SFCGAL.tar.gz -C SFCGAL --strip-components 1
 				tar -xzf ../downloads/stxxl.tar.gz -C stxxl --strip-components 1
+				tar -xzf ../downloads/libspatialindex.tar.gz -C libspatialindex --strip-components 1
+
+				cd spatialindex
+				cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_PATH .
+				make
+				make install
+				cd ../
 
 				cd boost
                 ./bootstrap.sh --prefix=$INSTALL_PATH
