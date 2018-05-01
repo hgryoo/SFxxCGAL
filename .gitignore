@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+cppbuild
+cmake-build*
+cmake-release*

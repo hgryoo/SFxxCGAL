@@ -1,0 +1,1 @@
+build_tool(vector1)

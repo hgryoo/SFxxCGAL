@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFCGAL4J"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\cppbuild\;CMake Files\..\..\cppbuild\linux-x86_64\;CMake Files\..\..\cppbuild\linux-x86_64\lib\;CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\;CMake Files\examples\;CMake Files\examples\stxxl\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/hgryoo/Developement/sfcgal_performance/src/native/build/main/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="build/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/include"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/boost"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native/cpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/hgryoo/Developement/sfcgal_performance/src/native/build/main/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="build/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/include"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/boost"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native/cpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector1">
+				<Option output="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/vector1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/include"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/boost"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native/cpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 vector1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector1/fast">
+				<Option output="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/vector1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/include"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/cppbuild/linux-x86_64/boost"/>
+					<Add directory="/home/hgryoo/Developement/sfcgal_performance/src/native/cpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 vector1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/vector1.cpp">
+			<Option target="vector1"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/cmake/Modules/FindBoost.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/cmake/Modules/FindCGAL.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/cmake/Modules/FindSFCGAL.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/cmake/Modules/FindSTXXL.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGALExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGALExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGALLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_CoreExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_CoreExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_CoreLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_SetupFlags.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/../../cppbuild/linux-x86_64/lib/CGAL/UseCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\..\cppbuild\linux-x86_64\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/hgryoo/Developement/sfcgal_performance/src/native/examples/stxxl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\stxxl\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
