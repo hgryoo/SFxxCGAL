@@ -15,65 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c828d68-c491-4057-9670-d8ace46b523a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/PointerVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCoordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFEnvelope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometryCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFLineString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiLineString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPolygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiSolid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolyhedralSurface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPreparedGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFSolid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFSurface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangulatedSurface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pnu/stem/sfcgal4j/SFWrapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/executable/buildings.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/executable/executable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/executable/stxxl.errlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/executable/stxxl.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/main/buildings.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/main/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/main/stxxl.errlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/build/main/stxxl.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometry.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFLineString.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFLineString.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPoint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSolid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSolid.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSolid.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSolid.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSurface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/native/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/src/native/cmake-build-debug/" />
@@ -99,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="287">
+              <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/native/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -160,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;void *&gt;</find>
       <find>.</find>
       <find>When converting to 2D - Solid is invalid</find>
       <find>When converting to 2D</find>
@@ -190,6 +140,7 @@
       <find>basedir</find>
       <find>, link = &quot;SFCGAL&quot;</find>
       <find>compile</find>
+      <find>cppbuild</find>
     </findStrings>
     <replaceStrings>
       <replace>dps6</replace>
@@ -205,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/native/examples/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake/Modules/FindSIDX.cmake" />
         <option value="$PROJECT_DIR$/src/native/examples/sidx/crtree.cpp" />
         <option value="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" />
@@ -256,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCoordinate.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/native/.gitignore" />
       </list>
     </option>
   </component>
@@ -295,6 +246,17 @@
             <path>
               <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
               <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,12 +337,12 @@
       <workItem from="1525017300088" duration="21201000" />
       <workItem from="1525150706008" duration="2253000" />
       <workItem from="1525154098255" duration="37000" />
-      <workItem from="1525157289512" duration="20407000" />
+      <workItem from="1525157289512" duration="20478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109689000" />
+    <option name="totallyTimeSpent" value="109760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-25" width="1920" height="1105" extended-state="6" />
@@ -392,10 +354,10 @@
       <window_info anchor="bottom" id="CMake" order="11" weight="0.36095965" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.29116684" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.1821156" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.1821156" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.037077427" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3642312" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991276" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,11 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCAPI.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1100">
@@ -777,8 +734,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="287">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
         </state>
       </provider>
     </entry>
