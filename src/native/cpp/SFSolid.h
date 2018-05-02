@@ -1,21 +1,5 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
@@ -42,96 +26,45 @@ public:
     SFSolid(const SFPolyhedralSurface& exteriorShell) {
 	    data = new SFCGAL::Solid(*(SFCGAL::PolyhedralSurface *)(exteriorShell.get_data()));
 	}
-	//SFSolid(const SFPolyhedralSurface& exteriorShell) : SFGeometry(new SFCGAL::Solid(*(SFCGAL::PolyhedralSurface *)(exteriorShell.get_data()))) { }
-	//Polygon(PolyhedralSurface* exteriorShell) : Surface(new SFCGAL::Solid(*(SFCGAL::PolyhedralSurface *)(exteriorShell->get_data()))) { }
-	//SFSolid(const SFSolid& other) : SFSurface(new SFCGAL::Solid(*other.data)) { }
-	
+
 	SFSolid(const SFCGAL::Solid& other) : SFGeometry(new SFCGAL::Solid(other)) { }
 	
 	SFSolid(SFCGAL::Solid* other) : SFGeometry(other) { }
 
-	SFSolid& operator=(const SFSolid& other) {
-		data = other.data;
-		
-		return *this;
-	}
-	
 	~SFSolid() { }
-	
-	
-	//--SFCGAL::Geometry
-	SFSolid* clone() const {
-		return new SFSolid(*this);
-	}
-	
-	std::string geometryType() const {
-		return data->geometryType();
-	}	
-	
-	int geometryTypeId() const {
-		return data->geometryTypeId();
-	}
-	
-	int dimension() const {
-		return data->dimension();
-	}
-	
-	int coordinateDimension() const {
-		return data->coordinateDimension();
-	}
 
-	bool isEmpty() const {
-		return data->isEmpty();
-	}
+	SFSolid& operator=(const SFSolid& other);
 
-	bool is3D() const {
-		return data->is3D();
-	}
-	
-	bool isMeasured() const {
-		return data->isMeasured();
-	}
+	SFSolid* clone() const;
 
-	
-	SFPolyhedralSurface& exteriorShell() const {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->exteriorShell()));
-	}
+	std::string geometryType() const;
+	int geometryTypeId() const;
 
-	SFPolyhedralSurface& exteriorShell() {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->exteriorShell()));
-	}
+	int dimension() const;
+	int coordinateDimension() const;
+	bool isEmpty() const;
+	bool is3D() const;
+	bool isMeasured() const;
 
-	size_t numInteriorShells() const {
-		return ((SFCGAL::Solid *)data)->numInteriorShells();
-	}
+	SFPolyhedralSurface& exteriorShell() const;
 
-	const SFPolyhedralSurface& interiorShellN( size_t const & n) const {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->interiorShellN(n)));
-	}
-	
-	SFPolyhedralSurface& interiorShellN( size_t const & n) {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->interiorShellN(n)));
-	}
+	SFPolyhedralSurface& exteriorShell();
 
-	void addInteriorShell( const SFPolyhedralSurface& shell ) {
-		((SFCGAL::Solid *)data)->addInteriorShell(*(SFCGAL::PolyhedralSurface *)(shell.get_data()));
-	}
+	size_t numInteriorShells() const;
 
-	void addInteriorShell( SFPolyhedralSurface* shell ) {
-		((SFCGAL::Solid *)data)->addInteriorShell(*(SFCGAL::PolyhedralSurface *)(shell->get_data()));
-	}
+	const SFPolyhedralSurface& interiorShellN( size_t const & n) const;
 
-	size_t numShells() const {
-		return ((SFCGAL::Solid *)data)->numShells();
-	}
+	SFPolyhedralSurface& interiorShellN( size_t const & n);
 
-	SFPolyhedralSurface& shellN( size_t const & n) const {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->shellN(n)));
-	}
+	void addInteriorShell( const SFPolyhedralSurface& shell );
 
-	SFPolyhedralSurface& shellN( size_t const & n) {
-		return *(new SFPolyhedralSurface(((SFCGAL::Solid *)data)->shellN(n)));
-	}
+	void addInteriorShell( SFPolyhedralSurface* shell );
+
+	size_t numShells() const;
+
+	SFPolyhedralSurface& shellN( size_t const & n) const;
+
+	SFPolyhedralSurface& shellN( size_t const & n);
 
 	//iterator begin();
 	//iterator begin() const;

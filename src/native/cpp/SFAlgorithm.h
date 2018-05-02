@@ -20,6 +20,9 @@
  *
  */
 
+#ifndef JAVACPP_SFCGAL_ALGORITHM_H
+#define JAVACPP_SFCGAL_ALGORITHM_H
+
 #include <SFCGAL/algorithm/area.h>
 #include <SFCGAL/algorithm/convexHull.h>
 #include <SFCGAL/algorithm/covers.h>
@@ -239,3 +242,5 @@ bool isValid( const SFGeometry& g , const int tolerance) {
 		return static_cast<bool>(SFCGAL::algorithm::isValid(*(g.get_data()), 0));
 	}
 }
+
+#endif

@@ -19,4 +19,9 @@
  * @author Donguk Seo
  *
  */
+#ifndef JAVACPP_SFCGAL_ALGORITHM_H
+#define JAVACPP_SFCGAL_ALGORITHM_H
+
 #include "SFAlgorithm.h"
+
+#endif

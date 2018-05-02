@@ -14,15 +14,32 @@
  *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  *    Lesser General Public License for more details.
  */
+package edu.pnu.stem.sfcgal4j;
+
+import org.bytedeco.javacpp.Loader;
+import org.bytedeco.javacpp.Pointer;
+import org.bytedeco.javacpp.annotation.Platform;
 
 /**
  * @author Donguk Seo
  *
  */
+@Platform(include = "cpp/SFSurface.h", link = "SFCGAL")
+public class SFSurface extends SFGeometry {
+        static {
+                Loader.load();
+        }
 
-#include "SFSurface.h"
+        public SFSurface() {
+                allocate();
+        }
 
-int SFSurface::dimension() const {
-    return data->dimension();
+        public SFSurface(Pointer p) {
+                super(p);
+        }
+
+        private native void allocate();
+
+        public native int dimension();
+
 }
-

@@ -1,50 +1,84 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
 
 #include "SFEnvelope.h"
+
 #include "SFLineString.h"
 #include "SFPolygon.h"
 #include "SFSolid.h"
+#include "SFPolyhedralSurface.h"
+const SFCGAL::Envelope& SFEnvelope::get_data() const { return data; }
+SFCGAL::Envelope& SFEnvelope::get_data() { return data; }
+
+SFEnvelope& SFEnvelope::operator=(const SFEnvelope& other) {
+    data = other.data;
+
+    return *this;
+}
+
+bool SFEnvelope::isEmpty() const {
+    return data.isEmpty();
+}
+
+bool SFEnvelope::is3D() const {
+    return data.is3D();
+}
+
+void SFEnvelope::expandToInclude(const SFCoordinate& coordinate) {
+    data.expandToInclude(coordinate.get_data());
+}
+
+const double& SFEnvelope::xMin() const {
+    return data.xMin();
+}
+
+const double& SFEnvelope::yMin() const {
+    return data.yMin();
+}
+
+const double& SFEnvelope::zMin() const {
+    return data.zMin();
+}
+
+const double& SFEnvelope::xMax() const {
+    return data.xMax();
+}
+
+const double& SFEnvelope::yMax() const {
+    return data.yMax();
+}
+
+const double& SFEnvelope::zMax() const {
+    return data.zMax();
+}
 
 SFLineString& SFEnvelope::toRing() const {
-	std::auto_ptr<SFCGAL::LineString> p = data.toRing();
-	
-	SFLineString *lineString = new SFLineString(p.release());
+    std::auto_ptr<SFCGAL::LineString> p = data.toRing();
 
-	return *lineString;
+    SFLineString *lineString = new SFLineString(p.release());
+
+    return *lineString;
 }
 
 SFPolygon& SFEnvelope::toPolygon() const {
-	std::auto_ptr<SFCGAL::Polygon> p = data.toPolygon();
+    std::auto_ptr<SFCGAL::Polygon> p = data.toPolygon();
 
-	SFPolygon *polygon = new SFPolygon(p.release());
+    SFPolygon *polygon = new SFPolygon(p.release());
 
-	return *polygon;
+    return *polygon;
 }
 
 SFSolid& SFEnvelope::toSolid() const {
-	std::auto_ptr<SFCGAL::Solid> p = data.toSolid();
+    std::auto_ptr<SFCGAL::Solid> p = data.toSolid();
 
-	SFSolid *solid = new SFSolid(p.release());
+    SFSolid *solid = new SFSolid(p.release());
 
-	return *solid;
+    return *solid;
+}
+
+bool SFEnvelope::operator==(const SFEnvelope& other) {
+    return (this->data == other.data);
 }

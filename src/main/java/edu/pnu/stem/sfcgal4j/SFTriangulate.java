@@ -14,15 +14,23 @@
  *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  *    Lesser General Public License for more details.
  */
+package edu.pnu.stem.sfcgal4j;
+
+import org.bytedeco.javacpp.Loader;
+import org.bytedeco.javacpp.annotation.ByRef;
+import org.bytedeco.javacpp.annotation.Platform;
 
 /**
  * @author Donguk Seo
  *
  */
+@Platform(include = "cpp/SFTriangulate.h", link = "SFCGAL")
+public class SFTriangulate {
+        static {
+                Loader.load();
+        }
 
-#include "SFSurface.h"
+        public static native void triangulatePolygon3D(@ByRef SFGeometry g,
+                        @ByRef SFTriangulatedSurface triangulateSurface);
 
-int SFSurface::dimension() const {
-    return data->dimension();
 }
-

@@ -22,6 +22,7 @@
 #include "cpp/SFPoint.h"
 #include "cpp/SFSolid.h"
 #include "cpp/SFAlgorithm.h"
+#include "cpp/SFEnvelope.h"
 
 using namespace SFCGAL;
 
@@ -50,6 +51,10 @@ public:
 class SolidUtil {
 public:
     SFSolid* makeSolidbyEnvelope(SFPoint *l, SFPoint *u) {
+        SFEnvelope* env = new SFEnvelope(l->x(), u->x(), l->y(), u->y(), l->z(), u->z());
+        SFSolid* solid = new SFSolid(env->toSolid());
+
+        /*
         SFPoint *p1 = new SFPoint(l->x(), u->y(), l->z());
         SFPoint *p2 = new SFPoint(l->x(), l->y(), l->z());
         SFPoint *p3 = new SFPoint(u->x(), l->y(), l->z());
@@ -86,7 +91,7 @@ public:
         dps4->push_back(p1);
         dps4->push_back(p2);
         dps4->push_back(p6);
-        
+
         std::vector<void *> *dps5 = new std::vector<void *>();
         dps5->push_back(p2);
         dps5->push_back(p3);
@@ -125,6 +130,7 @@ public:
 
         SFPolyhedralSurface *exteriorShell = new SFPolyhedralSurface(*surfaces);
         SFSolid *solid = new SFSolid(*exteriorShell);
+        */
         return solid;
     }
 };

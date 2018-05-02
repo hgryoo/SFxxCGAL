@@ -38,6 +38,7 @@ set( SIDX_DIR_SEARCH "${INSTALL_PATH}")
 macro(build_tool PROGNAME)
     add_executable(${PROGNAME} ${PROGNAME}.cpp ${ARGN})
     target_link_libraries(${PROGNAME}
+            SFCGAL4J_LIB
             ${SIDX_LIBRARY}
             ${STXXL_LIBRARY}
             ${SFCGAL_LIBRARIES}
@@ -47,6 +48,8 @@ macro(build_tool PROGNAME)
             ${Boost_LIBRARIES}
             )
 endmacro(build_tool)
+
+find_package(Threads QUIET)
 
 # Boost and its components
 find_package( Boost REQUIRED )
@@ -81,6 +84,14 @@ if ( NOT SIDX_FOUND )
     message(STATUS "This project requires the SIDX library, and will not be compiled.")
     return()
 endif()
+
+file(GLOB SFCGAL4J_LIB_SOURCES "src/native/cpp/*.cpp")
+add_library(SFCGAL4J_LIB ${SFCGAL4J_LIB_SOURCES})
+
+include_directories(
+        src/native/cpp
+        ${STXXL_INCLUDE_DIRS}
+)
 
 add_subdirectory (src/native)
 

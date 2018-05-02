@@ -20,6 +20,9 @@
  *
  */
 
+#ifndef JAVACPP_SFCGAL_SFCAPI_H
+#define JAVACPP_SFCGAL_SFCAPI_H
+
 #include <SFCGAL/capi/sfcgal_c.h>
 #include <string>
 #include <iostream>
@@ -27,6 +30,7 @@
 #include "SFGeometry.h"
 #include "SFPreparedGeometry.h"
 #include "SFTriangulatedSurface.h"
+
 
 SFGeometry& SFCGAL_io_read_wkt( const std::string& str, size_t len ) {
 	SFCGAL::Geometry* p = (SFCGAL::Geometry *)sfcgal_io_read_wkt(str.c_str(), len);
@@ -86,3 +90,5 @@ SFTriangulatedSurface& SFCGAL_geometry_triangulate_2dz( const SFGeometry& g ) {
 
 	return *surf;
 }
+
+#endif
