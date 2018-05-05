@@ -1,27 +1,9 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_ALGORITHM_H
-#define JAVACPP_SFCGAL_ALGORITHM_H
+#pragma once
 
 #include <SFCGAL/algorithm/area.h>
 #include <SFCGAL/algorithm/convexHull.h>
@@ -242,5 +224,3 @@ bool isValid( const SFGeometry& g , const int tolerance) {
 		return static_cast<bool>(SFCGAL::algorithm::isValid(*(g.get_data()), 0));
 	}
 }
-
-#endif

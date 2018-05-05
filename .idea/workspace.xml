@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="SFCGAL" targetName="vector1" />
-      <config projectName="SFCGAL" targetName="SFCGAL4J_LIB" />
       <config projectName="SFCGAL" targetName="main" />
       <config projectName="SFCGAL" targetName="crtree" />
+      <config projectName="SFCGAL" targetName="vector1" />
+      <config projectName="SFCGAL" targetName="SFCGAL4J_LIB" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,7 +15,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c828d68-c491-4057-9670-d8ace46b523a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/native/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCAPI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCAPI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFLineString.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFLineString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPoint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSolid.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSolid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFSurface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangle.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangulate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangulate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangulate.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangulate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/src/native/cmake-build-debug/" />
@@ -32,72 +67,90 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="SFPoint.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPoint.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="130" column="31" lean-forward="true" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="SFPolygon.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/native/.gitignore">
+      <file leaf-file-name="SFPreparedGeometry.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="SFPreparedGeometry.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="150">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SFAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SFCoordinate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCoordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointerVector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/PointerVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="SFSolid.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSolid.cpp">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="SFSurface.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSurface.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFTriangle.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangle.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFTriangulate.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulate.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFTriangulatedSurface.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFTriangulatedSurface.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -112,8 +165,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.</find>
-      <find>When converting to 2D - Solid is invalid</find>
-      <find>When converting to 2D</find>
+      <find />
+      <find />
       <find>get_data</find>
       <find>intersects3d</find>
       <find>3d</find>
@@ -138,7 +191,7 @@
       <find>src</find>
       <find>cpp</find>
       <find>basedir</find>
-      <find>, link = &quot;SFCGAL&quot;</find>
+      <find />
       <find>compile</find>
       <find>cppbuild</find>
     </findStrings>
@@ -156,43 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cmake/Modules/FindSIDX.cmake" />
-        <option value="$PROJECT_DIR$/src/native/examples/sidx/crtree.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPoint.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFSolid.cpp" />
-        <option value="$PROJECT_DIR$/src/native/main.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFSurface.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" />
-        <option value="$PROJECT_DIR$/src/native/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFCoordinate.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFEnvelope.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometry.cpp" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFLineString.h" />
-        <option value="$PROJECT_DIR$/src/native/cpp/SFSolid.h" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFEnvelope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometryCollection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFLineString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiLineString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPolygon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiSolid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolygon.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolyhedralSurface.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPreparedGeometry.java" />
@@ -207,6 +223,43 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/native/.gitignore" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFCAPI.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFCoordinate.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFEnvelope.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometry.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFLineString.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangulate.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangle.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFSurface.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFSolid.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPolygon.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPoint.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFCAPI.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFEnvelope.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFLineString.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiLineString.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiPoint.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFMultiSolid.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPoint.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFSurface.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangle.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangulate.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.cpp" />
+        <option value="$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.h" />
       </list>
     </option>
   </component>
@@ -226,10 +279,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="225" />
-    <option name="y" value="24" />
-    <option name="width" value="1622" />
-    <option name="height" value="1056" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -239,7 +291,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,10 +309,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="native" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFCGAL4J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfcgal_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="sidx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.crtree">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="run.sh" type="BashConfigurationType" factoryName="Bash">
       <module name="sfcgal_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,10 +380,10 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/native/run.sh" />
       <option name="PARAMETERS" value="" />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="SFCGAL4J_LIB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="SFCGAL4J_LIB" CONFIG_NAME="Debug" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="crtree" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="SFCGAL4J_LIB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="SFCGAL4J_LIB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="crtree" />
     <configuration name="crtree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="crtree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="crtree" />
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="main" />
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="crtree" />
     <configuration name="vector1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFCGAL" TARGET_NAME="vector1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFCGAL" RUN_TARGET_NAME="vector1" />
     <list>
       <item itemvalue="Bash.run.sh" />
@@ -338,34 +412,37 @@
       <workItem from="1525150706008" duration="2253000" />
       <workItem from="1525154098255" duration="37000" />
       <workItem from="1525157289512" duration="20478000" />
+      <workItem from="1525333943025" duration="798000" />
+      <workItem from="1525338555075" duration="2152000" />
+      <workItem from="1525458190443" duration="1416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109760000" />
+    <option name="totallyTimeSpent" value="114126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-25" width="1920" height="1105" extended-state="6" />
+    <frame x="113" y="7" width="2448" height="1434" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37604168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20482421" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.54307526" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.36095965" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5019857" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.55179936" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.29116684" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.1821156" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.1604448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3642312" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991276" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3637084" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.29116684" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,58 +463,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h">
+    <entry file="file://$PROJECT_DIR$/target/classes/edu/pnu/stem/sfcgal4j/jniSFAlgorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="-63009">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h">
+    <entry file="file://$PROJECT_DIR$/src/native/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#764#801#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="428">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="428">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolygon.h">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/cpp/SFCAPI.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCAPI.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="334">
+          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -448,301 +505,311 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCoordinate.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-2442">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/PointerVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/examples/sidx/crtree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/spatialindex/Point.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCAPI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="e#742#775#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCoordinate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        <state relative-caret-position="1025">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="140" column="2" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolygon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPoint.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#740#765#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1025">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFEnvelope.h">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiSolid.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1025">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiPoint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSurface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSolid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolyhedralSurface.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiLineString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFAlgorithm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="225" column="1" selection-start-line="225" selection-start-column="1" selection-end-line="225" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFAlgorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCAPI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFCoordinate.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFEnvelope.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="e#85#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometry.h">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFEnvelope.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#154#182#0" expanded="true" />
+            <element signature="e#98#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometry.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="1000">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFLineString.cpp">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFGeometryCollection.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="425">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFLineString.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="2100">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFLineString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiLineString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiPoint.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiPolygon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFMultiSolid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPoint.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPolygon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFPreparedGeometry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSolid.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" selection-start-line="19" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSolid.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFGeometryCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFLineString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiLineString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiPolygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFMultiSolid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPolyhedralSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFPreparedGeometry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFSolid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/Modules/FindSFCGAL.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangulatedSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFTriangulate.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFEnvelope.java">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFSurface.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/edu/pnu/stem/sfcgal4j/linux-x86_64/libSFCGAL.la">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangle.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/PointerVector.java">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulate.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pnu/stem/sfcgal4j/SFCoordinate.java">
+    <entry file="file://$PROJECT_DIR$/src/native/cpp/SFTriangulatedSurface.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/edu/pnu/stem/sfcgal4j/jniSFAlgorithm.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63009">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="130" column="31" lean-forward="true" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/native/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        <state relative-caret-position="244">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
     </entry>

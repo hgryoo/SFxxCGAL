@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Polygon_H
-#define JAVACPP_SFCGAL_Polygon_H
+#pragma once
 
 #include <SFCGAL/Polygon.h>
 #include "SFGeometry.h"
@@ -95,5 +93,3 @@ public:
 
 	void addRing( SFLineString* ls );
 };
-
-#endif

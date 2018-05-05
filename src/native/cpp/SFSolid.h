@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Solid_H
-#define JAVACPP_SFCGAL_Solid_H
+#pragma once
 
 #include <SFCGAL/Solid.h>
 #include "SFPolyhedralSurface.h"
@@ -74,5 +72,3 @@ public:
 	//void accept(GeometryVisitor& visitor);
 	//void accept(ConstGeometryVisitor& visitor) const ;
 };
-
-#endif

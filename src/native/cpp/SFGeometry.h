@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Geometry_H
-#define JAVACPP_SFCGAL_Geometry_H
+#pragma once
 
 #include <SFCGAL/Geometry.h>
 #include "SFEnvelope.h"
@@ -64,5 +62,3 @@ public:
 
 	bool operator==(const SFGeometry& other);
 };
-
-#endif

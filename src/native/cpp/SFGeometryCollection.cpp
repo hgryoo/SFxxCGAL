@@ -1,27 +1,61 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
-#ifndef JAVACPP_SFCGAL_GeometryCollection_H
-#define JAVACPP_SFCGAL_GeometryCollection_H
 
 #include "SFGeometryCollection.h"
 
-#endif
+//--SFCGAL::Geometry
+SFGeometryCollection* SFGeometryCollection::clone() const {
+    return new SFGeometryCollection(*this);
+}
+
+std::string SFGeometryCollection::geometryType() const {
+    return data->geometryType();
+}
+
+int SFGeometryCollection::geometryTypeId() const {
+    return data->geometryTypeId();
+}
+
+int SFGeometryCollection::dimension() const {
+    return data->dimension();
+}
+
+int SFGeometryCollection::coordinateDimension() const {
+    return data->coordinateDimension();
+}
+
+bool SFGeometryCollection::isEmpty() const {
+    return data->isEmpty();
+}
+
+bool SFGeometryCollection::is3D() const {
+    return data->is3D();
+}
+
+bool SFGeometryCollection::isMeasured() const {
+    return data->isMeasured();
+}
+
+size_t SFGeometryCollection::numGeometries() const {
+    return data->numGeometries();
+}
+
+
+const SFGeometry& SFGeometryCollection::geometryN(size_t const& n) const {
+    return *(new SFGeometry( ((SFCGAL::GeometryCollection *)data)->geometryN(n) ));
+}
+
+SFGeometry& SFGeometryCollection::geometryN(size_t const& n) {
+    return *(new SFGeometry( ((SFCGAL::GeometryCollection *)data)->geometryN(n) ));
+}
+
+void SFGeometryCollection::addGeometry(SFGeometry* geometry) {
+    ((SFCGAL::GeometryCollection *)data)->addGeometry(geometry->get_data());
+}
+
+void SFGeometryCollection::addGeometry(const SFGeometry& geometry){
+    ((SFCGAL::GeometryCollection *)data)->addGeometry(*geometry.get_data());
+}

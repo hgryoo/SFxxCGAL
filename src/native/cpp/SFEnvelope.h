@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Envelope_H
-#define JAVACPP_SFCGAL_Envelope_H
+#pragma once
 
 #include <SFCGAL/Envelope.h>
 #include "SFCoordinate.h"
@@ -71,5 +69,3 @@ public:
 
 	bool operator==(const SFEnvelope& other);
 };
-
-#endif

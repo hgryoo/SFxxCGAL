@@ -1,27 +1,9 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_SFCAPI_H
-#define JAVACPP_SFCGAL_SFCAPI_H
+#pragma once
 
 #include <SFCGAL/capi/sfcgal_c.h>
 #include <string>
@@ -84,11 +66,9 @@ SFGeometry& SFCGAL_geometry_force_rhr( const SFGeometry& g ) {
 }
 
 SFTriangulatedSurface& SFCGAL_geometry_triangulate_2dz( const SFGeometry& g ) {
-	SFCGAL::TriangulatedSurface* p = (SFCGAL::TriangulatedSurface *)sfcgal_geometry_triangulate_2dz(g.get_data());
+	SFCGAL::TriangulatedSurface *p = (SFCGAL::TriangulatedSurface *) sfcgal_geometry_triangulate_2dz(g.get_data());
 
 	SFTriangulatedSurface *surf = new SFTriangulatedSurface(p);
 
 	return *surf;
 }
-
-#endif

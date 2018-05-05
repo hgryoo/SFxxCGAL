@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_PreparedGeometry_H
-#define JAVACPP_SFCGAL_PreparedGeometry_H
+#pragma once
 
 #include <SFCGAL/PreparedGeometry.h>
 #include <stdint.h>
@@ -60,5 +58,3 @@ public:
 		return data.asEWKT(numDecimals);
 	}
 };
-
-#endif

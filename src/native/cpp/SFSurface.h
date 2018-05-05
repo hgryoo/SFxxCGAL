@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Surface_H
-#define JAVACPP_SFCGAL_Surface_H
+#pragma once
 
 #include <SFCGAL/Surface.h>
 #include "SFGeometry.h"
@@ -23,5 +21,3 @@ public:
 	//--SFCGAL::Geometry
 	int dimension() const;
 };
-
-#endif

@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_Coordinate_H
-#define JAVACPP_SFCGAL_Coordinate_H
+#pragma once
 
 #include <SFCGAL/Coordinate.h>
 
@@ -44,5 +42,3 @@ public:
 
 	bool operator!=(const SFCoordinate& other) const;
 };
-
-#endif

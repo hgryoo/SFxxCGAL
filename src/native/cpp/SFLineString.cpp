@@ -5,6 +5,7 @@
  */
 
 #include "SFLineString.h"
+
 SFLineString& SFLineString::operator=(const SFLineString& other) {
     data = other.data;
 

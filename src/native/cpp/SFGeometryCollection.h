@@ -1,27 +1,9 @@
-/*
- *    GeoTools - The Open Source Java GIS Toolkit
- *    http://geotools.org
- *
- *    (C) 2015, Open Source Geospatial Foundation (OSGeo)
- *
- *    This library is free software; you can redistribute it and/or
- *    modify it under the terms of the GNU Lesser General Public
- *    License as published by the Free Software Foundation;
- *    version 2.1 of the License.
- *
- *    This library is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *    Lesser General Public License for more details.
- */
-
 /**
+ * @author Hyung-Gyu Ryoo (hyungyu.ryoo@gmail.com)
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_GeometryCollection_H
-#define JAVACPP_SFCGAL_GeometryCollection_H
+#pragma once
 
 #include <SFCGAL/GeometryCollection.h>
 #include "SFGeometry.h"
@@ -45,58 +27,32 @@ public:
 	
 	
 	//--SFCGAL::Geometry
-	SFGeometryCollection* clone() const {
-		return new SFGeometryCollection(*this);
-	}
+	SFGeometryCollection* clone() const;
 	
-	std::string geometryType() const {
-		return data->geometryType();
-	}	
+	std::string geometryType() const;
 	
-	int geometryTypeId() const {
-		return data->geometryTypeId();
-	}
+	int geometryTypeId() const;
 	
-	int dimension() const {
-		return data->dimension();	
-	}
+	int dimension() const;
 	
-	int coordinateDimension() const {
-		return data->coordinateDimension();
-	}
+	int coordinateDimension() const;
 
-	bool isEmpty() const {
-		return data->isEmpty();
-	}
+	bool isEmpty() const;
 
-	bool is3D() const {
-		return data->is3D();
-	}
+	bool is3D() const;
 	
-	bool isMeasured() const {
-		return data->isMeasured();
-	}
+	bool isMeasured() const;
 
-	size_t numGeometries() const {
-		return data->numGeometries();
-	}
+	size_t numGeometries() const;
 
 
-	const SFGeometry& geometryN(size_t const& n) const {
-		return *(new SFGeometry( ((SFCGAL::GeometryCollection *)data)->geometryN(n) ));
-	}
+	const SFGeometry& geometryN(size_t const& n) const;
 
-	SFGeometry& geometryN(size_t const& n) {
-		return *(new SFGeometry( ((SFCGAL::GeometryCollection *)data)->geometryN(n) ));
-	}
+	SFGeometry& geometryN(size_t const& n);
 	
-	void addGeometry(SFGeometry* geometry) {
-		((SFCGAL::GeometryCollection *)data)->addGeometry(geometry->get_data());
-	}
+	void addGeometry(SFGeometry* geometry);
 
-	void addGeometry(const SFGeometry& geometry){
-		((SFCGAL::GeometryCollection *)data)->addGeometry(*geometry.get_data());
-	}
+	void addGeometry(const SFGeometry& geometry);
 	
 	// iterator begin() ;
 	// iterator end() ;
@@ -104,5 +60,3 @@ public:
 	//void accept(GeometryVisitor& visitor);
 	//void accept(ConstGeometryVisitor& visitor) const ;
 };
-
-#endif

@@ -3,9 +3,7 @@
  * @author Donguk Seo
  *
  */
-
-#ifndef JAVACPP_SFCGAL_LineString_H
-#define JAVACPP_SFCGAL_LineString_H
+#pragma once
 
 #include <SFCGAL/LineString.h>
 
@@ -90,5 +88,3 @@ public:
 	void reserve(const size_t& n);
 
 };
-
-#endif
