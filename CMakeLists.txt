@@ -42,6 +42,7 @@ macro(build_tool PROGNAME)
             ${SIDX_LIBRARY}
             ${STXXL_LIBRARY}
             ${SFCGAL_LIBRARIES}
+            SFCGAL-osg
             ${CGAL_LIBRARIES}
             ${MPFR_LIBRARIES}
             ${GMP_LIBRARIES}
@@ -89,6 +90,7 @@ file(GLOB SFCGAL4J_LIB_SOURCES "src/native/cpp/*.cpp")
 add_library(SFCGAL4J_LIB ${SFCGAL4J_LIB_SOURCES})
 
 include_directories(
+        src/natvie/include
         src/native/cpp
         ${STXXL_INCLUDE_DIRS}
 )

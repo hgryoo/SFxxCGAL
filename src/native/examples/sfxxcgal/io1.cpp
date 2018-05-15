@@ -1,15 +1,10 @@
-#include <SFCGAL/Geometry.h>
 #include <SFCGAL/MultiPolygon.h>
 #include <SFCGAL/MultiPoint.h>
 #include <SFCGAL/Coordinate.h>
 #include <SFCGAL/Solid.h>
 
 #include <SFCGAL/io/wkt.h>
-#include <SFCGAL/io/GeometryStreams.h>
-#include <SFCGAL/io/vtk.h>
-#include <SFCGAL/detail/io/Serialization.h>
 #include <SFCGAL/algorithm/offset.h>
-#include <SFCGAL/io/osg.h>
 
 #include <string>
 
@@ -19,8 +14,6 @@
 #include <stxxl/io>
 #include <stxxl/vector>
 #include <stxxl/stream>
-#include <stxxl/bits/common/binary_buffer.h>
-#include <stxxl/bits/common/rand.h>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
@@ -30,8 +23,6 @@
 #include "cpp/SFSolid.h"
 #include "cpp/SFAlgorithm.h"
 #include "cpp/SFEnvelope.h"
-
-#include "include/Experiments.hpp"
 
 using namespace SFCGAL;
 
@@ -57,6 +48,93 @@ public:
     }
 };
 
+class SolidUtil {
+public:
+    SFSolid* makeSolidbyEnvelope(SFPoint *l, SFPoint *u) {
+        SFEnvelope* env = new SFEnvelope(l->x(), u->x(), l->y(), u->y(), l->z(), u->z());
+        SFSolid* solid = new SFSolid(env->toSolid());
+
+        /*
+        SFPoint *p1 = new SFPoint(l->x(), u->y(), l->z());
+        SFPoint *p2 = new SFPoint(l->x(), l->y(), l->z());
+        SFPoint *p3 = new SFPoint(u->x(), l->y(), l->z());
+        SFPoint *p4 = new SFPoint(u->x(), u->y(), l->z());
+        SFPoint *p5 = new SFPoint(l->x(), u->y(), u->z());
+        SFPoint *p6 = new SFPoint(l->x(), l->y(), u->z());
+        SFPoint *p7 = new SFPoint(u->x(), l->y(), u->z());
+        SFPoint *p8 = new SFPoint(u->x(), u->y(), u->z());
+
+        std::vector<void *> *dps1 = new std::vector<void *>();
+        dps1->push_back(p1);
+        dps1->push_back(p4);
+        dps1->push_back(p3);
+        dps1->push_back(p2);
+        dps1->push_back(p1);
+
+        std::vector<void *> *dps2 = new std::vector<void *>();
+        dps2->push_back(p3);
+        dps2->push_back(p4);
+        dps2->push_back(p8);
+        dps2->push_back(p7);
+        dps2->push_back(p3);
+
+        std::vector<void *> *dps3 = new std::vector<void *>();
+        dps3->push_back(p5);
+        dps3->push_back(p6);
+        dps3->push_back(p7);
+        dps3->push_back(p8);
+        dps3->push_back(p5);
+
+        std::vector<void *> *dps4 = new std::vector<void *>();
+        dps4->push_back(p6);
+        dps4->push_back(p5);
+        dps4->push_back(p1);
+        dps4->push_back(p2);
+        dps4->push_back(p6);
+
+        std::vector<void *> *dps5 = new std::vector<void *>();
+        dps5->push_back(p2);
+        dps5->push_back(p3);
+        dps5->push_back(p7);
+        dps5->push_back(p6);
+        dps5->push_back(p2);
+
+        std::vector<void *> *dps6 = new std::vector<void *>();
+        dps6->push_back(p1);
+        dps6->push_back(p5);
+        dps6->push_back(p8);
+        dps6->push_back(p4);
+        dps6->push_back(p1);
+
+        SFLineString *line1 = new SFLineString(*dps1);
+        SFLineString *line2 = new SFLineString(*dps2);
+        SFLineString *line3 = new SFLineString(*dps3);
+        SFLineString *line4 = new SFLineString(*dps4);
+        SFLineString *line5 = new SFLineString(*dps5);
+        SFLineString *line6 = new SFLineString(*dps6);
+
+        SFPolygon *poly1 = new SFPolygon(*line1);
+        SFPolygon *poly2 = new SFPolygon(*line2);
+        SFPolygon *poly3 = new SFPolygon(*line3);
+        SFPolygon *poly4 = new SFPolygon(*line4);
+        SFPolygon *poly5 = new SFPolygon(*line5);
+        SFPolygon *poly6 = new SFPolygon(*line6);
+
+        std::vector<void *> *surfaces = new std::vector<void *>();
+        surfaces->push_back(poly1);
+        surfaces->push_back(poly2);
+        surfaces->push_back(poly3);
+        surfaces->push_back(poly4);
+        surfaces->push_back(poly5);
+        surfaces->push_back(poly6);
+
+        SFPolyhedralSurface *exteriorShell = new SFPolyhedralSurface(*surfaces);
+        SFSolid *solid = new SFSolid(*exteriorShell);
+        */
+        return solid;
+    }
+};
+
 std::ostream& operator << (std::ostream& o, const IndoorSpace& obj)
 {
     o << obj.getID() << " => " << std::endl << (obj.getGeometry()) << std::endl;
@@ -73,8 +151,6 @@ void generateRandomBuildings(int x, int y, int z) {
     isVec vec;
 
     int num = 0;
-
-    stxxl::binary_buffer buffer;
     for(int i = 0; i < x - 1; i++) {
         for(int j = 0; j < y - 1; j++) {
             for(int k = 0; k < z - 1; k++) {
@@ -111,53 +187,11 @@ void generateRandomBuildings(int x, int y, int z) {
     */
 }
 
-void generateBuildings(int x, int y, int z) {
-    std::auto_ptr< GeometryCollection > result( new GeometryCollection() );
-
-    typedef stxxl::VECTOR_GENERATOR<char>::result Byte;
-    stxxl::syscall_file* input_file = NULL, * output_file = NULL;
-
-    Byte vec;
-
-    SolidUtil util;
-    std::cout << "Random Building Generator in " << x << " * " << y << " * " << z << std::endl;
-    for(int i = 0; i < x; i=i+2) {
-        for (int j = 0; j < y; j=j+2) {
-            stxxl::binary_buffer buffer;
-            for (int k = 0; k < z; k=k+2) {
-                SFSolid *s = util.makeSolidbyEnvelope(new SFPoint(i, j, k), new SFPoint(i + 1, j + 1, k + 1));
-                buffer.put_string(io::writeBinaryGeometry(*(s->get_data())));
-                delete s;
-                //result->addGeometry(s->get_data());
-            }
-
-            stxxl::binary_reader br(buffer);
-            std::string ss = br.get_string();
-            //vec.push_back(ss.get_string());
-
-        }
-    }
-
-    output_file = new stxxl::syscall_file("./buildings", stxxl::file::RDWR | stxxl::file::CREAT | stxxl::file::DIRECT);
-
-
-    std::cout << "generating finished" << std::endl;
-
-    //std::cout << buffer.size() << std::endl;
-
-    //io::osgWriteFile( *result, "./building.osg" );
-
-    std::cout << "writing osg file finished" << std::endl;
-}
-
 int main() {
-    StatsPair stats = createNewStats();
-
     SFPoint *p1 = new SFPoint(0, 0, 0);
     SFPoint *p2 = new SFPoint(1, 1, 1);
     SFPoint *p3 = new SFPoint(0.5, 0.5, 0.3);
 
-    /*
     SolidUtil util;
     SFSolid *s = util.makeSolidbyEnvelope(p1, p2);
     std::cout << s->asText() << std::endl;
@@ -167,11 +201,8 @@ int main() {
 
     bool result2 = covers3D(*s, *p3);
     std::cout << "covers = " << result2 << std::endl;
-    */
-    testGeneratingBuildings(100, 100, 100);
 
-    printStats(stats);
-
+    generateRandomBuildings(10, 10, 10);
     return 0;
 }
 

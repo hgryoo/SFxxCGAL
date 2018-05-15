@@ -111,8 +111,7 @@ case $OPERATION in
                 mkdir -p CGAL
                 mkdir -p SFCGAL
                 mkdir -p stxxl
-                mkdir -p spatialindex
-
+                mkdir -p libspatialindex
 
                 tar -xzf ../downloads/boost.tar.gz -C boost --strip-components 1
 				tar -xf ../downloads/CGAL.tar.xz -C CGAL --strip-components 1
@@ -120,7 +119,7 @@ case $OPERATION in
 				tar -xzf ../downloads/stxxl.tar.gz -C stxxl --strip-components 1
 				tar -xzf ../downloads/libspatialindex.tar.gz -C libspatialindex --strip-components 1
 
-				cd spatialindex
+				cd libspatialindex
 				cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_PATH .
 				make
 				make install
@@ -133,12 +132,12 @@ case $OPERATION in
                 ./b2 -d0 install "--prefix=$INSTALL_PATH" link=shared "address-model=64" "toolset=gcc"
                 cd ../
 
-                ln -sf libboost_thread.so lib/libboost_thread-mt.so
+                #ln -sf libboost_thread.so lib/libboost_thread-mt.so
 
                 export BOOST_ROOT="$INSTALL_PATH"
                 export BOOST_INCLUDEDIR="$INSTALL_PATH/include/boost/"
                 export BOOST_LIBRARYDIR="$INSTALL_PATH/lib/"
-                export BOOST_THREAD_LIBRARY_RELEASE="$INSTALL_PATH/lib/libboost_thread.so"
+                #export BOOST_THREAD_LIBRARY_RELEASE="$INSTALL_PATH/lib/libboost_thread.so"
 
 				# building cgal
 				cd CGAL
@@ -154,7 +153,7 @@ case $OPERATION in
 				export CGAL_INCLUDE_DIRS="$INSTALL_PATH/include/"
 				export CGAL_LIBRARY_DIRS="$INSTALL_PATH/lib/"
 
-				cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_PATH
+				cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_PATH -DSFCGAL_WITH_OSG=ON
 
 				make
 				make install

@@ -37,7 +37,6 @@ public:
 
 	virtual bool isEmpty() const;
 
-
 	virtual bool is3D() const;
 	
 	virtual bool isMeasured() const;
